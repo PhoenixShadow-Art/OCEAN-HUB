@@ -5,15 +5,10 @@
    | |_| | (__|  __/ (_| || || | || |  | | | |
     \___/  \___|\___|\__,_||_||_|_||_|  |_| |_|
     
-    v1.6.64  |  2026-04-05  |  Roblox UI Library for scripts
+    v1.0.0  |  2026-04-19  |  Roblox UI Library for scripts
     
     Ocean Hub – A polished Roblox UI library built for scripts.
     To view the source code, see the `src/` folder on the official GitHub repository.
-    
-    Author: Footagesus (Footages, .ftgs, oftgs)
-    Github: https://github.com/Footagesus/OceanHub
-    Discord: https://discord.gg/ftgs-development-hub-1300692552005189632
-    License: MIT
 ]]
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()local b=(cloneref or clonereference or function(b)return b end)
